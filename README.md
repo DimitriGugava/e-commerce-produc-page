@@ -45,7 +45,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://e-commerce-produc-page.vercel.app/))
+- Live Site URL: https://your-live-site-url.com](https://e-commerce-produc-page.vercel.app/
 
 
 ## Author

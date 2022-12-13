@@ -1,0 +1,126 @@
+.cartContainer {
+  position: absolute;
+  height: 256px;
+  width: 360px;
+  margin: -308px 7px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 50px -20px rgba(29, 32, 38, 0.5031);
+  border-radius: 10px;
+  z-index: 15;
+}
+.cartCartText {
+  display: inline-block;
+  height: 16px;
+  width: 34px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  margin: 24px 24px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(29, 32, 38, 1);
+}
+
+.cartLine {
+  height: 1px;
+  width: 360px;
+  margin: 27px auto;
+  background: rgba(228, 233, 242, 1);
+}
+.cartIsEmptyText {
+  height: 26px;
+  width: 142px;
+  font-family: "Kumbh Sans";
+  margin: 77px auto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(105, 112, 125, 1);
+}
+
+.selectedProductCart {
+  display: flex;
+  align-items: center;
+  margin: 0px 12px;
+  gap: 15px;
+  height: 52px;
+  width: 312px;
+}
+
+.selectedCartImg {
+  height: 50px;
+  width: 50px;
+
+  border-radius: 4px;
+}
+.namePriceCartBox {
+  height: 52px;
+  width: 213px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.selectedProductName {
+  height: 26px;
+  width: 240px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(105, 112, 125, 1);
+}
+.ProductPriceCart {
+  height: 26px;
+  width: 150px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(105, 112, 125, 1);
+}
+
+.cartDelete {
+  height: 16px;
+  width: 14px;
+}
+.cartDelete:hover {
+  cursor: pointer;
+}
+
+.checkoutButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 56px;
+  width: 312px;
+  margin: 18px auto;
+  border-radius: 10px;
+  background: rgba(255, 126, 27, 1);
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  border-style: none;
+}
+.checkoutButton:hover {
+  cursor: pointer;
+  background: rgb(254, 115, 9);
+}
+
+@media only screen and (min-width: 1440px) {
+  .cartContainer {
+    margin-left: 991px;
+    margin-top: -610px;
+  }
+}

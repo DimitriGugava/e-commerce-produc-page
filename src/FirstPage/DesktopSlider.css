@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1440px) {
+  .SliderContainer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .SliderContainer {
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    opacity: 0.999;
+    z-index: 3;
+    background: #000000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-left: -40px;
+  }
+
+  .photosAndSliderDesktop {
+    height: 445px;
+    width: 645px;
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+
+    margin: 28px auto;
+  }
+  .arrowLeftBoxDesktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 56px;
+    width: 56px;
+    z-index: 10;
+    margin-left: 16px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1);
+  }
+  .arrowLeftBoxDesktop:hover {
+    cursor: pointer;
+    background: rgb(229, 228, 228);
+  }
+
+  .arrowRightBoxDesktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 56px;
+    width: 56px;
+    z-index: 10;
+    margin-left: 16px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1);
+  }
+  .arrowRightBoxDesktop:hover {
+    cursor: pointer;
+    background: rgb(229, 228, 228);
+  }
+
+  .shoesphotoDesktopSlider {
+    height: 445px;
+    width: 445px;
+    margin: auto;
+    border-radius: 15px;
+
+    z-index: 1;
+  }
+  .allPhotosBoxDesktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 88px;
+    width: 500px;
+    margin: 0px auto;
+    border-radius: 10px;
+    gap: 33px;
+  }
+  .allPhotosPhotosDesktop {
+    height: 88px;
+    width: 88px;
+    border-radius: 10px;
+  }
+  .allPhotosPhotosDesktop:hover {
+    border: 2px solid rgb(250, 129, 36);
+    cursor: pointer;
+  }
+}

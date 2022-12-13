@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nameOfCompany": "GeoShoes",
+      "season": "Fall Limited Edition Sneakers",
+      "description": "These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.",
+      "currentPrice": 125,
+      "sale": 50,
+      "initialPrice": 250.0,
+      "images": [
+        "/images/desktopshoe.jpg",
+        "/images/desktopshoe2.jpg",
+        "/images/desktopshoe3.jpg",
+        "/images/desktopshoe4.jpg"
+      ]
+    }
+  ]
+}

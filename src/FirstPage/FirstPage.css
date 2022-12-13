@@ -1,0 +1,473 @@
+.mainPageContainer {
+  width: 375px;
+  margin: auto;
+}
+
+.firstPageHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 24px;
+  width: 327px;
+  margin: 19px auto;
+}
+
+.searchBar {
+  position: absolute;
+  height: 15px;
+  width: 16px;
+  margin-left: -20px;
+  margin-top: 0px;
+}
+.searchBar:hover {
+  cursor: pointer;
+}
+
+.sneakers {
+  margin-left: 16px;
+}
+
+.cart {
+  margin-left: 90px;
+}
+.cart:hover {
+  cursor: pointer;
+}
+
+.numberInCartHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  margin-left: 255px;
+  margin-top: -17px;
+  height: 13px;
+  width: 19px;
+  background: rgba(255, 126, 27, 1);
+  border-radius: 6.5px;
+  font-family: "Kumbh Sans";
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.userprofilephoto {
+  margin-left: 22px;
+}
+
+.userprofilephoto:hover {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.photosAndSlider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 300px;
+  width: 375px;
+  margin: 28px auto;
+}
+.arrowLeftBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  width: 40px;
+  z-index: 10;
+  margin-left: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+}
+.arrowLeftBox:hover {
+  cursor: pointer;
+  background: rgb(229, 228, 228);
+}
+
+.arrowRightBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  width: 40px;
+  z-index: 10;
+  margin-left: 263px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+}
+.arrowRightBox:hover {
+  cursor: pointer;
+  background: rgb(229, 228, 228);
+}
+
+.shoesphoto {
+  height: 300px;
+  width: 375px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.productdetailsbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 375px;
+}
+
+.companyname {
+  height: 12px;
+  width: 327px;
+  font-family: "Kumbh Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 1.8461538553237915px;
+  text-align: left;
+  color: rgba(255, 126, 27, 1);
+}
+
+.season {
+  height: 64px;
+  width: 327px;
+  font-family: "Kumbh Sans";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(29, 32, 38, 1);
+}
+
+.description {
+  height: 100px;
+  width: 327px;
+  font-family: "Kumbh Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(105, 112, 125, 1);
+}
+
+.pricesbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 24px auto;
+  height: 34px;
+  width: 326px;
+}
+
+.currentprice {
+  height: 28px;
+  width: 106px;
+  font-family: "Kumbh Sans";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(29, 32, 38, 1);
+}
+.salebox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 27px;
+  width: 51px;
+  background: rgba(255, 238, 226, 1);
+  border-radius: 6px;
+  margin-left: 16px;
+}
+.sale {
+  height: 16px;
+  width: 35px;
+  left: 8px;
+  top: 7px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 126, 27, 1);
+}
+
+.previousprice {
+  height: 26px;
+  width: 63px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(182, 188, 200, 1);
+  margin-left: 150px;
+  text-decoration: line-through;
+}
+.increasedecreaseproductsbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 56px;
+  width: 327px;
+  background: rgba(246, 248, 253, 1);
+  border-radius: 10px;
+  margin: 24px auto;
+}
+
+.minusbox {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 15px;
+}
+
+.minusbox:hover {
+  cursor: pointer;
+}
+.minus {
+  height: 3px;
+  width: 15px;
+  background: rgba(255, 126, 27, 1);
+  border-radius: 2px;
+}
+.minus:hover {
+  cursor: pointer;
+  background: rgb(250, 129, 36);
+}
+.number {
+  height: 16px;
+  width: 10px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(29, 32, 38, 1);
+}
+
+.plusBox {
+  position: relative;
+  height: 20px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.plusBox:hover {
+  cursor: pointer;
+}
+.plus {
+  position: absolute;
+  height: 3px;
+  width: 15px;
+  background: rgba(255, 126, 27, 1);
+  border-radius: 2px;
+}
+.plus:hover {
+  cursor: pointer;
+  background: rgb(250, 129, 36);
+}
+.plushorizontal {
+  position: absolute;
+  height: 3px;
+  width: 15px;
+  background: rgba(255, 126, 27, 1);
+  border-radius: 2px;
+
+  transform: rotate(90deg);
+}
+.plushorizontal:hover {
+  cursor: pointer;
+  background: rgb(250, 129, 36);
+}
+
+.addCartBox {
+  height: 56px;
+  width: 327px;
+  background: rgba(255, 126, 27, 1);
+  border-radius: 10px;
+  box-shadow: 0px 20px 50px -20px rgba(255, 126, 27, 1);
+
+  margin: 16px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.addCartBox:hover {
+  cursor: pointer;
+  background: rgb(250, 138, 52);
+}
+
+.whitecart {
+  height: 16px;
+  width: 17.456958770751953px;
+}
+.cartText {
+  height: 16px;
+  width: 86px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+@media only screen and (max-width: 1440px) {
+  .headerTextSectionDesktopOnly {
+    display: none;
+  }
+  .lineforDesktop {
+    display: none;
+  }
+  .allPhotosBox {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .mainPageContainer {
+    height: 900px;
+    width: 1440px;
+  }
+
+  .firstPageHeader {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 1110px;
+  }
+  .searchBar {
+    display: none;
+  }
+  .headerTextSectionDesktopOnly {
+    display: flex;
+
+    gap: 32px;
+    height: 26px;
+    width: 397px;
+    margin-left: 56px;
+  }
+  .numberInCartHeader {
+    margin-left: 1015px;
+  }
+  .textSection {
+    height: 26px;
+    width: 78px;
+    font-family: "Kumbh Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(105, 112, 125, 1);
+  }
+  .textSection:hover {
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 2px solid rgb(250, 129, 36);
+    padding-bottom: 62px;
+  }
+
+  .cart {
+    margin-left: 402px;
+  }
+  .lineforDesktop {
+    height: 1px;
+    width: 1110px;
+    margin: 50px auto;
+    border-radius: 0px;
+    background: rgba(228, 233, 242, 1);
+  }
+
+  .arrowLeftBox {
+    display: none;
+  }
+  .arrowRightBox {
+    display: none;
+  }
+  .photosAndSlider {
+    margin-left: 213px;
+    margin-top: 90px;
+    height: 445px;
+    width: 445px;
+  }
+  .shoesphoto {
+    height: 445px;
+    width: 445px;
+    border-radius: 10px;
+  }
+  .shoesphoto:hover {
+    cursor: pointer;
+  }
+  .productdetailsbox {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 780px;
+    margin-top: -400px;
+    width: 600px;
+    height: auto;
+  }
+  .description {
+    width: 600px;
+    height: auto;
+    margin-top: -10px;
+  }
+  .pricesbox {
+    margin-left: 780px;
+    margin-top: 0px;
+  }
+  .previousprice {
+    margin-top: 65px;
+    margin-left: -175px;
+  }
+  .increasedecreaseproductsbox {
+    height: 56px;
+    width: 157px;
+    margin-left: 780px;
+    margin-top: 35px;
+    border-radius: 10px;
+  }
+  .addCartBox {
+    height: 56px;
+    width: 272px;
+    border-radius: 10px;
+    margin-left: 950px;
+    margin-top: -82px;
+  }
+
+  .allPhotosBox {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 88px;
+    width: 500px;
+    margin: -20px 210px;
+    border-radius: 10px;
+    gap: 33px;
+  }
+  .allPhotosPhotos {
+    height: 88px;
+    width: 88px;
+    border-radius: 10px;
+  }
+  .allPhotosPhotos:hover {
+    border: 2px solid rgb(250, 129, 36);
+    cursor: pointer;
+  }
+}
